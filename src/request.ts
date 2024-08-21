@@ -13,6 +13,7 @@ export const makeRequest = (
   data: RequestOptions,
   cache: HttpCache | null,
   onReceiveData: (response: any) => void,
+  onErrorData: (response: any) => void,
 ): void => {
   if (xhr) {
     xhr.abort();
@@ -53,5 +54,6 @@ export const makeRequest = (
         onReceiveData(payload);
       }
     }
+    onErrorData(xhr)
   };
 };
