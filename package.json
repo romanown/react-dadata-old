@@ -1,5 +1,5 @@
 {
-  "name": "react-dadata",
+  "name": "react-dadata-old",
   "version": "2.23.1",
   "description": "React-компонент для подсказок адресов, организаций и банков с помощью сервиса DaData.ru",
   "main": "dist/cjs/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitalybaev/react-dadata.git"
+    "url": "git+https://github.com/romanown/react-dadata-old.git"
   },
   "keywords": [
     "react",
@@ -35,9 +35,9 @@
   "author": "Vitaly Baev <ping@baev.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vitalybaev/react-dadata/issues"
+    "url": "https://github.com/romanown/react-dadata-old/issues"
   },
-  "homepage": "https://vitalybaev.github.io/react-dadata/",
+  "homepage": "",
   "dependencies": {
     "debounce": "^1.2.1",
     "highlight-words": "^1.2.1",
